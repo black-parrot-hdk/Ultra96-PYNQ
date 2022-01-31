@@ -6,7 +6,8 @@ set -e
 # patch for SWIG: 
 # https://github.com/intel-iot-devkit/mraa/blob/master/docs/building.md
 cd /usr/share/swig3.0
-wget https://git.yoctoproject.org/cgit.cgi/poky/plain/meta/recipes-devtools/swig/swig/0001-Add-Node-7.x-aka-V8-5.2-support.patch
+#wget https://git.yoctoproject.org/cgit.cgi/poky/plain/meta/recipes-devtools/swig/swig/0001-Add-Node-7.x-aka-V8-5.2-support.patch
+wget https://raw.githubusercontent.com/maximeh/buildroot/master/package/swig/0001-Add-Node-7.x-aka-V8-5.2-support.patch
 patch -p2 < "0001-Add-Node-7.x-aka-V8-5.2-support.patch"
 
 # patch for mraa 2.0.0
