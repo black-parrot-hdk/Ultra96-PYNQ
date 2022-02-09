@@ -77,3 +77,8 @@
 	/delete-node/ ina226@40;
 };
 
+&watchdog0 {
+	status = "okay";
+	reset-on-timeout;
+	timeout-sec = <60>;
+};

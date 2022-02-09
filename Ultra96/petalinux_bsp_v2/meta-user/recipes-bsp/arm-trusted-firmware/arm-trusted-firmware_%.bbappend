@@ -1,0 +1,1 @@
+EXTRA_OEMAKE_append_ultra96-zynqmp = "ZYNQMP_WARM_RESTART=1"
