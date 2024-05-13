@@ -5,3 +5,4 @@ FPGA_MANAGER_Ultra96 := 1
 
 STAGE4_PACKAGES_Ultra96 := pynq mraa upm usbgadget usb-eth0
 STAGE4_PACKAGES_Ultra96 += wilc3000 xrt sensorconf-v2
+STAGE4_PACKAGES_Ultra96 += nfs watchdog
